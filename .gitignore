@@ -28,3 +28,5 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 ## PROJECT IGNORES - nonamebox
 user_guide/
+deployment-config.json
+application/config/database.php
