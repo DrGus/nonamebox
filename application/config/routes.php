@@ -53,5 +53,4 @@ $route['default_controller'] = 'pages/view';
 
 $route['404_override'] = '';
 
-$route['welcome'] = 'welcome/index';
 $route['(:any)'] = 'pages/view/$1';
