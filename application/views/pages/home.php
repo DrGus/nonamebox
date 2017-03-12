@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>TMP Home</title>
 
     <?php/* STYLES CSS */ ?>
@@ -11,10 +11,22 @@
     <link rel="stylesheet" href="<?=public_url()?>res/bootstrap/css/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="<?=public_url()?>css/nnb-frontstyle.css"/>
     <?php/* STYLES CSS */ ?>
-
   </head>
   <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav id="nnb-preheader" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6">
+              <span class="nnb-linkcontainer"><a href="#">ES</a> / <a href="#">EN</a></span>
+            </div>
+            <div class="col-xs-6 nnb-right">
+              <span class="nnb-linkcontainer"><a href="#">Login</a></span>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+      </div><!-- nav/.container -->
+    </nav><!-- #nnb-preheader -->
+    <nav id="nnb-header" class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -31,8 +43,8 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-      </div><!-- nav/.container/.navbar-collapse -->
-    </div><!-- nav/.container -->
+        </div><!-- nav/.container/.navbar-collapse -->
+      </div><!-- nav/.container -->
     </nav>
 
     <div class="container nnb-page-content">
