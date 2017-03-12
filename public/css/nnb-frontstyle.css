@@ -1,3 +1,55 @@
+.nnb-right {
+  text-align: right;
+}
+.nnb-center {
+  text-align: center;
+}
+.nnb-left {
+  text-align: left;
+}
+
+body {
+  color: #282828;
+}
+
+a {
+  color: #7ba025;
+}
+
+a:hover {
+  color: #8e3823;
+  text-decoration: none;
+}
+
+
+#nnb-preheader {
+  background: #8e3823;
+  border: none;
+}
+
+#nnb-preheader .nnb-linkcontainer {
+  display: block;
+  padding: 5px 0;
+}
+
+#nnb-preheader .nnb-linkcontainer a {
+  color: #282828;
+}
+
+#nnb-preheader .nnb-linkcontainer a:hover {
+  color: #7ba025;
+  text-decoration: underline;
+}
+
+#nnb-header {
+  background: #7ba025;
+  border: none;
+  margin-top: 30px;
+  height: 60px;
+}
+
+
+
 .nnb-page-content {
     padding-top: 60px;
 }
