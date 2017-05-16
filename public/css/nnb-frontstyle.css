@@ -1,3 +1,12 @@
+/*
+::USED COLORS::
+green -> 7ba025
+dark green -> 667f2d
+brown -> 8e3823
+black -> 282828
+
+*/
+
 .nnb-right {
   text-align: right;
 }
@@ -17,13 +26,13 @@ a {
 }
 
 a:hover {
-  color: #8e3823;
-  text-decoration: none;
+  color: #667f2d;
+  text-decoration: underline;
 }
 
-
+/* PREHEADER STA */
 #nnb-preheader {
-  background: #8e3823;
+  background: #667f2d;
   border: none;
 }
 
@@ -40,7 +49,9 @@ a:hover {
   color: #7ba025;
   text-decoration: underline;
 }
+/* PREHEADER END */
 
+/* HEADER STA */
 #nnb-header {
   background: #7ba025;
   border: none;
@@ -48,7 +59,24 @@ a:hover {
   height: 60px;
 }
 
+.navbar-brand {
+  padding: 18px 15px;
+}
 
+.navbar-inverse .navbar-brand {
+  color: #282828;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.navbar-nav > li > a {
+  padding: 20px 15px; 
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background: #667f2d;
+}
+/* HEADER END */
 
 .nnb-page-content {
     padding-top: 60px;
