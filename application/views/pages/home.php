@@ -9,8 +9,7 @@
     <?php/* STYLES CSS */ ?>
     <link rel="stylesheet" href="<?=public_url()?>res/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="<?=public_url()?>res/bootstrap/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="<?=public_url()?>css/nnb-core.css"/>
-    <link rel="stylesheet" href="<?=public_url()?>css/nnb-frontstyle.css"/>
+    <link rel="stylesheet" href="<?=public_url()?>css/nnb-style.css"/>
     <?php/* STYLES CSS */ ?>
   </head>
   <body>
@@ -48,8 +47,10 @@
       </div><!-- nav/.container -->
     </nav>
 
+    <div class="row"><div class="container nnb-menu-separator"></div></div>
+
     <div class="row">
-      <div class="container nnb-page-content">
+      <div class="container">
         <div class="starter-template">
           <h1>No Name Box</h1>
           <h2>Account availability</h2>
