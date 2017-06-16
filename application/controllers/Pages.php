@@ -8,8 +8,13 @@ class Pages extends NNB_Controller {
 	public function view($page = "home")
 	{
 		
-		if ($page = "home") {
+		$this->load->view("includes/head");
+		$this->load->view("includes/header");
+
+		if ($page = "home")
 			$this->load->view("pages/home");
-		}
+		
+		$this->load->view("includes/footer");
+		$this->load->view("includes/foot");
 	}
 }

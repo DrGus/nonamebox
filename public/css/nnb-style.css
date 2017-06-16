@@ -1,0 +1,20 @@
+#nnb-preheader {
+  height: 20px;
+  background: #7ba025; }
+  #nnb-preheader a {
+    color: #282828; }
+
+#nnb-header {
+  margin-top: 20px;
+  height: 75px; }
+  #nnb-header .brand-container {
+    padding-right: 10px; }
+    #nnb-header .brand-container .navbar-brand {
+      background-image: url(../img/nnb-logo.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      padding: 0;
+      margin: 0;
+      width: 170px;
+      height: 75px; }
